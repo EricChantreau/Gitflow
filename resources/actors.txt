@@ -1,0 +1,3 @@
+Actor [lastname=Turner, firstname=Sophie, sex=F, height=1.75, birthdate=21/02/1996, cityBirth=Northampton, role=Sansa Stark]
+Actor [lastname=Williams, firstname=Maisie, sex=F, height=1.55, birthdate=15/04/1997, cityBirth=Bristol, role=Arya Stark]
+Actor [lastname=Coster-Waldau, firstname=Nikolaj, sex=H, height=1.87, birthdate=27/07/1970, cityBirth=Rudkøbing, role=Jaime Lannister]
