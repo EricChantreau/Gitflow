@@ -7,4 +7,10 @@ public class BadParameterException extends Exception {
 	public BadParameterException(final String msg) {
 		super(msg);
 	}
+
+public class lafeaturedecharles{
+	//faitdestrucs
+//encoredestrucs
+}
+
 }

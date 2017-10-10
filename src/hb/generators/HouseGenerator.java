@@ -16,9 +16,9 @@ public class HouseGenerator {
 	public HouseGenerator() {
 		this.houses = new HashMap<>();
 		// house Stark
-		House stark = new House("Stark", "Winterfell", "Nord", "Winter Is Coming");
-		Blazon starkBlazon = new Blazon("loup garou");
-		starkBlazon.setColors(new String[] { "gris", "blanc" });
+		House stark = new House("Stark", "Winterfell", "North", "Winter Is Coming");
+		Blazon starkBlazon = new Blazon("direwolf");
+		starkBlazon.setColors(new String[] { "grey", "white" });
 		stark.setBlazon(starkBlazon);
 		List<Member> starks = new ArrayList<>();
 		Member lordEddard = new Member("Stark", "Lord Eddard", "gris", "brun", "Sire de Winterfell");
@@ -50,9 +50,9 @@ public class HouseGenerator {
 		this.houses.put(stark.getName(), stark);
 
 		// house Lannister
-		House lannister = new House("Lannister", "Castral Roc", "Terres de l'Ouest", "Hear Me Roar");
+		House lannister = new House("Lannister", "Castrayl Rock", "Westerlands", "Hear Me Roar");
 		Blazon lannisterBlazon = new Blazon("lion");
-		lannisterBlazon.setColors(new String[] { "or", "rouge" });
+		lannisterBlazon.setColors(new String[] { "gold", "red" });
 		lannister.setBlazon(lannisterBlazon);
 		List<Member> lannisters = new ArrayList<>();
 		Member tywin = new Member("Lannister", "Tywin", "vert,or", "rasé", "Seigneur de la maison");
@@ -72,9 +72,9 @@ public class HouseGenerator {
 		this.houses.put(lannister.getName(), lannister);
 
 		// house Baratheon
-		House baratheon = new House("Baratheon", "Accalmie", "Terres de l'Orage", "Ours is the Fury");
-		Blazon baratheonBlazon = new Blazon("cerf");
-		baratheonBlazon.setColors(new String[] { "or", "noir" });
+		House baratheon = new House("Baratheon", "Storm's End", "Stormlands", "Ours is the Fury");
+		Blazon baratheonBlazon = new Blazon("stag");
+		baratheonBlazon.setColors(new String[] { "gold", "black" });
 		baratheon.setBlazon(baratheonBlazon);
 		List<Member> baratheons = new ArrayList<>();
 		Member robert = new Member("Baratheon", "Robert", "bleu clair", "noir", "Roi des sept couronnes");
@@ -100,9 +100,9 @@ public class HouseGenerator {
 		this.houses.put(baratheon.getName(), baratheon);
 
 		// house Targaryen
-		House targaryen = new House("Targaryen", "", "", "Fire and Blood");
+		House targaryen = new House("Targaryen", "Dragonstone", "", "Fire and Blood");
 		Blazon targaryenBlazon = new Blazon("dragon");
-		targaryenBlazon.setColors(new String[] { "rouge", "noir" });
+		targaryenBlazon.setColors(new String[] { "red", "black" });
 		targaryen.setBlazon(targaryenBlazon);
 		List<Member> targaryens = new ArrayList<>();
 		Member viserys = new Member("Targaryen", "Viseris", "lilas", "or", "Héritier légitime des sept couronnes");
@@ -116,9 +116,9 @@ public class HouseGenerator {
 		this.houses.put(targaryen.getName(), targaryen);
 
 		// house Greyjoy
-		House greyjoy = new House("Greyjoy", "Pyk", "Îles de Fer", "We Do Not Sow");
-		Blazon greyjoyBlazon = new Blazon("seiche");
-		greyjoyBlazon.setColors(new String[] { "doré", "noir" });
+		House greyjoy = new House("Greyjoy", "Pyk", "Iron Islands", "We Do Not Sow");
+		Blazon greyjoyBlazon = new Blazon("kraken");
+		greyjoyBlazon.setColors(new String[] { "golden", "black" });
 		greyjoy.setBlazon(greyjoyBlazon);
 		List<Member> greyjoys = new ArrayList<>();
 		Member theon = new Member("Greyjoy", "Theon", "", "", "Dernier fils vivant");
